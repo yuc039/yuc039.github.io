@@ -1,0 +1,81 @@
+h1 {
+    
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder
+}
+
+body {
+    background-color: lavenderblush;
+    font: 13px/20px Courier, monospace;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p { 
+    border-style: solid;
+}
+
+table {
+    border-style: dashed;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: lavender;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .2s ease;
+    backface-visibility: hidden;
+  }
+
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  
+  .container:hover .image {
+    opacity: 0.6;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  
+.text {
+    background-color: lavender;
+    color: purple;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
