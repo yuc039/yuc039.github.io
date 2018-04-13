@@ -23,6 +23,7 @@ p {
 }
 
 table {
+    text-align: left;
     border-style: dashed;
 }
 
